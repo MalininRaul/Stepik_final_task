@@ -14,7 +14,7 @@ class BasePage():
         self.browser.get(self.url)
 
     # напишем вспомогательный метод поиска элемента, который будет возвращать нам True или False
-    def __init(self, browser, url, timeout=10):
+    def __init__(self, browser, url, timeout=10):
         self.browser = browser
         self.url = url
         self.browser.implicitly_wait(timeout)
